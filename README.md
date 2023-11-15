@@ -6,7 +6,7 @@
 
 The repository contains the codes and data for our EMNLP 2023 Main Paper: [CLEME: Debiasing Multi-reference Evaluation for Grammatical Error Correction](https://arxiv.org/abs/2305.10819).
 
-**CLEME** is a reference-based metric that evaluate Grammatical Error Correction (GEC) systems at the chunk-level, aiming to provide unbiased F$_{0.5}$ scores for GEC multi-reference evaluation.
+**CLEME** is a reference-based metric that evaluate Grammatical Error Correction (GEC) systems at the chunk-level, aiming to provide unbiased F0.5 scores for GEC multi-reference evaluation.
 
 ## Features
 
@@ -28,17 +28,16 @@ The repository contains the codes and data for our EMNLP 2023 Main Paper: [CLEME
   We recommend the newest version of ERRANT for speed gain, although we use ERRANT v2.3.3 in the paper.
 
 - Clone this repository:
-
-```bash
-git clone https://github.com/THUKElab/CLEME.git
-cd ./CLEME
-```
+  ```bash
+  git clone https://github.com/THUKElab/CLEME.git
+  cd ./CLEME
+  ```
 
 ## Usage
 
 ### CLI
 
-##### Evaluate AMU system
+#### Evaluate AMU system
 
 ```bash
 python scripts/evaluate.py --ref tests/examples/conll14.errant --hyp tests/examples/conll14-AMU.errant
@@ -46,7 +45,7 @@ python scripts/evaluate.py --ref tests/examples/conll14.errant --hyp tests/examp
 {'num_sample': 1312, 'F': 0.2514, 'Acc': 0.7634, 'P': 0.2645, 'R': 0.2097, 'tp': 313.51, 'fp': 871.8, 'fn': 1181.71, 'tn': 6312.0}
 ```
 
-##### Visualize evaluation process as tables
+#### Visualize evaluation process as tables
 
 ```bash
 python scripts/evaluate.py  --ref tests/examples/demo.errant  --hyp tests/examples/demo-AMU.errant  --vis
@@ -54,7 +53,7 @@ python scripts/evaluate.py  --ref tests/examples/demo.errant  --hyp tests/exampl
 
 ### API
 
-##### Evaluate AMU system using CLEME-dependent
+#### Evaluate AMU system using CLEME-dependent
 
 ```python
 # Read M2 file
