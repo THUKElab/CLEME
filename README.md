@@ -18,12 +18,20 @@ The repository contains the codes and data for our EMNLP 2023 Main Paper: [CLEME
 
 - Python version >= 3.7
 
-- ERRANT or variants for other specific languages. We recommend installing the newest version of ERRANT.
+- ERRANT or variants designed for other specific languages.
 
   | Language | Link                                                         |
   | -------- | ------------------------------------------------------------ |
   | English  | [ERRANT](https://github.com/chrisjbryant/errant)             |
+  | Arabic   | [arabic_error_type_annotation](https://github.com/CAMeL-Lab/arabic_error_type_annotation) |
   | Chinese  | [ChERRANT](https://github.com/HillZhang1999/MuCGEC/blob/main/scorers/ChERRANT) |
+  | Czech    | [errant_czech](https://github.com/ufal/errant_czech)         |
+  | German   | [ERRANT-German](https://github.com/adrianeboyd/boyd-wnut2018) |
+  | Greek    | [ELERRANT](https://github.com/katkorre/elerrant)             |
+  | Hindi    | [hindi_grammar_correction](https://github.com/s-ankur/hindi_grammar_correction) |
+  | Korean   | [Standard_Korean_GEC](https://github.com/soyoung97/Standard_Korean_GEC) |
+  | Russian  | [ERRANT-Russian](https://github.com/Askinkaty/errant)        |
+  | Turkish  | [ERRANT-TR](https://github.com/harunuz/erranttr)             |
 
   We recommend the newest version of ERRANT for speed gain, although we use ERRANT v2.3.3 in the paper.
 
@@ -107,7 +115,7 @@ CLEME v1.0 released.
 
 ## Contact & Feedback
 
-If you have any questions or feedbacks, please send e-mails to ours: yejh22@mails.tsinghua.edu.cn
+If you have any questions or feedbacks, please send e-mails to ours: yejh22@mails.tsinghua.edu.cn, liyinghu20@mails.tsinghua.edu.cn
 
 
 
