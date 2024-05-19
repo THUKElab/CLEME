@@ -180,10 +180,10 @@ class M2DataReader(DataReader):
                 line_idx += 1
 
             elif line.startswith("T"):  # Target line
+                line_idx += 1
                 if line.endswith("没有错误") or line.endswith("无法标注"):
-                    line_idx += 1
                     LOGGER.debug(f"Unchanged sentence: {src_sent}")
-                if int(line.split("-", 1)[1][1]) != 0:
+                if len(line.split("-", 1)) > 1 and int(line.split("-", 1)[1][1]) != 0:
                     # Only happen on ChERRANT (Chinese). We ignore the follow-up edits.
                     LOGGER.info(f"Ignore repetitive target: {line}")
                     while m2_lines[line_idx].startswith("A "):
