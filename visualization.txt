@@ -1,0 +1,130 @@
+
+╒════════════╤═══════════════════════════════════════╕
+│ sentence   │ chunk-0                               │
+╞════════════╪═══════════════════════════════════════╡
+│ source     │ Keeping the Secret of Genetic Testing │
+├────────────┼───────────────────────────────────────┤
+│ target-0   │ Keeping the Secret of Genetic Testing │
+├────────────┼───────────────────────────────────────┤
+│ target-1   │ Keeping the Secret of Genetic Testing │
+├────────────┼───────────────────────────────────────┤
+│ target-2   │ Keeping the Secret of Genetic Testing │
+╘════════════╧═══════════════════════════════════════╛
+
+
+╒════════════╤════════════════════════╕
+│ sentence   │ chunk-0                │
+╞════════════╪════════════════════════╡
+│ source     │ What is genetic risk ? │
+├────────────┼────────────────────────┤
+│ target-0   │ What is genetic risk ? │
+├────────────┼────────────────────────┤
+│ target-1   │ What is genetic risk ? │
+├────────────┼────────────────────────┤
+│ target-2   │ What is genetic risk ? │
+╘════════════╧════════════════════════╛
+
+
+╒════════════╤═════════════════════╤═════════════╤══════════════════════════════════════════════════════╕
+│ sentence   │ chunk-0             │ chunk-1 *   │ chunk-2                                              │
+╞════════════╪═════════════════════╪═════════════╪══════════════════════════════════════════════════════╡
+│ source     │ Genetic risk refers │ more        │ to your chance of inheriting a disorder or disease . │
+├────────────┼─────────────────────┼─────────────┼──────────────────────────────────────────────────────┤
+│ target-0   │ Genetic risk refers │ more        │ to your chance of inheriting a disorder or disease . │
+├────────────┼─────────────────────┼─────────────┼──────────────────────────────────────────────────────┤
+│ target-1   │ Genetic risk refers │             │ to your chance of inheriting a disorder or disease . │
+├────────────┼─────────────────────┼─────────────┼──────────────────────────────────────────────────────┤
+│ target-2   │ Genetic risk refers │             │ to your chance of inheriting a disorder or disease . │
+╘════════════╧═════════════════════╧═════════════╧══════════════════════════════════════════════════════╛
+
+
+╒════════════╤════════════════════╤═════════════╤══════════════════════════════╕
+│ sentence   │ chunk-0            │ chunk-1 *   │ chunk-2                      │
+╞════════════╪════════════════════╪═════════════╪══════════════════════════════╡
+│ source     │ People get certain │ disease     │ because of genetic changes . │
+├────────────┼────────────────────┼─────────────┼──────────────────────────────┤
+│ target-0   │ People get certain │ disease     │ because of genetic changes . │
+├────────────┼────────────────────┼─────────────┼──────────────────────────────┤
+│ target-1   │ People get certain │ diseases    │ because of genetic changes . │
+├────────────┼────────────────────┼─────────────┼──────────────────────────────┤
+│ target-2   │ People get certain │ diseases    │ because of genetic changes . │
+╘════════════╧════════════════════╧═════════════╧══════════════════════════════╛
+
+
+╒════════════╤════════════════════════════════════════════════════════════════════╤═════════════╤════════════════════════════════╕
+│ sentence   │ chunk-0                                                            │ chunk-1 *   │ chunk-2                        │
+╞════════════╪════════════════════════════════════════════════════════════════════╪═════════════╪════════════════════════════════╡
+│ source     │ How much a genetic change tells us about your chance of developing │ a           │ disorder is not always clear . │
+├────────────┼────────────────────────────────────────────────────────────────────┼─────────────┼────────────────────────────────┤
+│ target-0   │ How much a genetic change tells us about your chance of developing │ the         │ disorder is not always clear . │
+├────────────┼────────────────────────────────────────────────────────────────────┼─────────────┼────────────────────────────────┤
+│ target-1   │ How much a genetic change tells us about your chance of developing │ a           │ disorder is not always clear . │
+├────────────┼────────────────────────────────────────────────────────────────────┼─────────────┼────────────────────────────────┤
+│ target-2   │ How much a genetic change tells us about your chance of developing │ a           │ disorder is not always clear . │
+╘════════════╧════════════════════════════════════════════════════════════════════╧═════════════╧════════════════════════════════╛
+
+
+╒════════════╤════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╕
+│ sentence   │ chunk-0                                                                                                                                                                            │
+╞════════════╪════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╡
+│ source     │ If your genetic results indicate that you have gene changes associated with an increased risk of heart disease , it does not mean that you definitely will develop heart disease . │
+├────────────┼────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ target-0   │ If your genetic results indicate that you have gene changes associated with an increased risk of heart disease , it does not mean that you definitely will develop heart disease . │
+├────────────┼────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ target-1   │ If your genetic results indicate that you have gene changes associated with an increased risk of heart disease , it does not mean that you definitely will develop heart disease . │
+├────────────┼────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ target-2   │ If your genetic results indicate that you have gene changes associated with an increased risk of heart disease , it does not mean that you definitely will develop heart disease . │
+╘════════════╧════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╛
+
+
+╒════════════╤═════════════════════════════╕
+│ sentence   │ chunk-0                     │
+╞════════════╪═════════════════════════════╡
+│ source     │ The opposite is also true . │
+├────────────┼─────────────────────────────┤
+│ target-0   │ The opposite is also true . │
+├────────────┼─────────────────────────────┤
+│ target-1   │ The opposite is also true . │
+├────────────┼─────────────────────────────┤
+│ target-2   │ The opposite is also true . │
+╘════════════╧═════════════════════════════╛
+
+
+╒════════════╤══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╤═════════════╤═════════════════════════╕
+│ sentence   │ chunk-0                                                                                                                                      │ chunk-1 *   │ chunk-2                 │
+╞════════════╪══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╪═════════════╪═════════════════════════╡
+│ source     │ If your genetic results show that you do not have changes associated with an increased risk of heart disease , it is still possible that you │             │ develop heart disease . │
+├────────────┼──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────────────┤
+│ target-0   │ If your genetic results show that you do not have changes associated with an increased risk of heart disease , it is still possible that you │             │ develop heart disease . │
+├────────────┼──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────────────┤
+│ target-1   │ If your genetic results show that you do not have changes associated with an increased risk of heart disease , it is still possible that you │             │ develop heart disease . │
+├────────────┼──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────────────┤
+│ target-2   │ If your genetic results show that you do not have changes associated with an increased risk of heart disease , it is still possible that you │ will        │ develop heart disease . │
+╘════════════╧══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╧═════════════╧═════════════════════════╛
+
+
+╒════════════╤═══════════╤═════════════╤═══════════════════════════════════════════════════════════════════════════════════════════════════════╕
+│ sentence   │ chunk-0   │ chunk-1 *   │ chunk-2                                                                                               │
+╞════════════╪═══════════╪═════════════╪═══════════════════════════════════════════════════════════════════════════════════════════════════════╡
+│ source     │ However   │             │ for some rare diseases , people who have certain gene changes are guaranteed to develop the disease . │
+├────────────┼───────────┼─────────────┼───────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ target-0   │ However   │             │ for some rare diseases , people who have certain gene changes are guaranteed to develop the disease . │
+├────────────┼───────────┼─────────────┼───────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ target-1   │ However   │ ,           │ for some rare diseases , people who have certain gene changes are guaranteed to develop the disease . │
+├────────────┼───────────┼─────────────┼───────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ target-2   │ However   │ ,           │ for some rare diseases , people who have certain gene changes are guaranteed to develop the disease . │
+╘════════════╧═══════════╧═════════════╧═══════════════════════════════════════════════════════════════════════════════════════════════════════╛
+
+
+╒════════════╤═════════════╤════════════════╤═══════════╤═════════════╤═════════════════╤═════════════╤═══════════╤═════════════╤═════════════╤═════════════╤════════════╤══════════════╤═════════════╕
+│ sentence   │ chunk-0     │ chunk-1 *      │ chunk-2   │ chunk-3 *   │ chunk-4         │ chunk-5 *   │ chunk-6   │ chunk-7 *   │ chunk-8     │ chunk-9 *   │ chunk-10   │ chunk-11 *   │ chunk-12    │
+╞════════════╪═════════════╪════════════════╪═══════════╪═════════════╪═════════════════╪═════════════╪═══════════╪═════════════╪═════════════╪═════════════╪════════════╪══════════════╪═════════════╡
+│ source     │ When we are │ diagonosed out │ with      │             │ certain genetic │ disease     │ , are we  │ suppose     │ to disclose │ this result │ to         │ our          │ relatives ? │
+├────────────┼─────────────┼────────────────┼───────────┼─────────────┼─────────────────┼─────────────┼───────────┼─────────────┼─────────────┼─────────────┼────────────┼──────────────┼─────────────┤
+│ target-0   │ When we are │ diagnosed out  │ with      │             │ certain genetic │ diseases    │ , are we  │ suppose     │ to disclose │ the results │ to         │ their        │ relatives ? │
+├────────────┼─────────────┼────────────────┼───────────┼─────────────┼─────────────────┼─────────────┼───────────┼─────────────┼─────────────┼─────────────┼────────────┼──────────────┼─────────────┤
+│ target-1   │ When we are │ diagnosed      │ with      │             │ certain genetic │ diseases    │ , are we  │ suppose     │ to disclose │ this result │ to         │ our          │ relatives ? │
+├────────────┼─────────────┼────────────────┼───────────┼─────────────┼─────────────────┼─────────────┼───────────┼─────────────┼─────────────┼─────────────┼────────────┼──────────────┼─────────────┤
+│ target-2   │ When we are │ diagnosed      │ with      │ a           │ certain genetic │ disease     │ , are we  │ supposed    │ to disclose │ this result │ to         │ our          │ relatives ? │
+╘════════════╧═════════════╧════════════════╧═══════════╧═════════════╧═════════════════╧═════════════╧═══════════╧═════════════╧═════════════╧═════════════╧════════════╧══════════════╧═════════════╛
+
