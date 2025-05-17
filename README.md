@@ -73,7 +73,8 @@ Together, these metrics aim to provide a more accurate, unbiased, and insightful
    | Korean                                                       | [Standard_Korean_GEC](https://github.com/soyoung97/Standard_Korean_GEC) |
    | Russian                                                      | [ERRANT-Russian](https://github.com/Askinkaty/errant)        |
    | Turkish                                                      | [ERRANT-TR](https://github.com/harunuz/erranttr)             |
-   | *We recommend using the latest version of ERRANT for potential speed improvements, although ERRANT v2.3.3 was used for the experiments in the CLEME paper.* |                                                              |
+
+   *We recommend using the latest version of ERRANT for potential speed improvements, although ERRANT v2.3.3 was used for the experiments in the CLEME paper.*
 
 3. **Clone this repository and install CLEME**:
 
@@ -130,7 +131,7 @@ python visualize.py \
 
 Example output:
 
-![](img\visualization.png)
+![](https://github.com/THUKElab/CLEME/blob/main/img/visualization.png)
 
 - Chunks with stars indicate changed text segments.
 - Chunks without starts indicate unchanged text segments.
